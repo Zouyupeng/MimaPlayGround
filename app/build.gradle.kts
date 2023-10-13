@@ -74,6 +74,8 @@ dependencies {
     // Compose
     implementation(libs.androidx.constraintlayout.compose)
     implementation(libs.androidx.navigation.compose)
+//    implementation(libs.material3.iconsExtended)
+    implementation (libs.androidx.material.icons.extended)
 
     // Hilt
     implementation(libs.hilt.android)
