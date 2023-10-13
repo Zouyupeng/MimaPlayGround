@@ -6,6 +6,7 @@ package com.oceanknight.mimaplayground
  * @date: 2023/10/11
  * @describe:
  */
-enum class NavRoute(val route: String) {
-    VolumeBar("VolumeBar")
+enum class NavRoute(val route: String, val title: String) {
+    VolumeBar("VolumeBar", "音量条"),
+    CountButton("CountButton", "计数按钮")
 }

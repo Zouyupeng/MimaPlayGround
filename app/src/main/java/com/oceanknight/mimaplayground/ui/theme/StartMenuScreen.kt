@@ -34,14 +34,14 @@ fun StartMenuScreen(
         LazyColumn(contentPadding = padding) {
             itemsIndexed(items = NavRoute.values()) { index, item ->
                 Text(
-                    text = index.toString() + ". " + item.name,
+                    text = index.toString() + ". " + item.title,
                     modifier = Modifier
                         .clickable {
                             navigateTo(item)
                         }
                         .fillMaxWidth()
                         .wrapContentHeight()
-                        .padding(5.dp),
+                        .padding(15.dp),
                     fontSize = 25.sp
                 )
 

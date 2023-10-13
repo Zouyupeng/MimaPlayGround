@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.oceanknight.mimaplayground.ui.page.element.countbutton.CountButtonScreen
 import com.oceanknight.mimaplayground.ui.page.element.volumebar.VolumeBarScreen
 import com.oceanknight.mimaplayground.ui.theme.MimaPlaygroundTheme
 import com.oceanknight.mimaplayground.ui.theme.StartMenuScreen
@@ -35,6 +36,7 @@ class MainActivity : ComponentActivity() {
                         composable(navRoute.route) {
                             when(navRoute) {
                                 NavRoute.VolumeBar -> VolumeBarScreen()
+                                NavRoute.CountButton -> CountButtonScreen()
                                 else -> {}
                             }
                         }
