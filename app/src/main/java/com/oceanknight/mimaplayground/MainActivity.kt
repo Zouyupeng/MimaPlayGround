@@ -14,6 +14,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.oceanknight.mimaplayground.ui.page.element.countbutton.CountButtonScreen
+import com.oceanknight.mimaplayground.ui.page.element.typewriter.TypeWriterScreen
 import com.oceanknight.mimaplayground.ui.page.element.volumebar.VolumeBarScreen
 import com.oceanknight.mimaplayground.ui.theme.MimaPlaygroundTheme
 import com.oceanknight.mimaplayground.ui.theme.StartMenuScreen
@@ -37,6 +38,7 @@ class MainActivity : ComponentActivity() {
                             when(navRoute) {
                                 NavRoute.VolumeBar -> VolumeBarScreen()
                                 NavRoute.CountButton -> CountButtonScreen()
+                                NavRoute.TypeWriter -> TypeWriterScreen()
                                 else -> {}
                             }
                         }

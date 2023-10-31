@@ -7,3 +7,8 @@
 
 ### 计数器按钮
 思路学习[这篇文章](https://medium.com/@domen.lanisnik/creating-an-animated-counter-button-in-jetpack-compose-444d03129510)
+自定义手势学习[这篇文章](https://jetpackcompose.cn/docs/design/gesture/customGesture)
+
+
+### 打字机动画
+思路学习[这篇文章](https://blog.canopas.com/jetpack-compose-typewriter-animation-with-highlighted-texts-74397fee42f1)
